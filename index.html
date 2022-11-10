@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container fixed-top">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 col-lg-3">
+                    <img src="assets/images/Logo.png" alt="logo" class="logo m-2" width="100px">
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-9">
+                    <ul class="nav nav-justified align-items-center pt-4">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link nav-hover active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text-dark nav-hover">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link text-dark nav-hover">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link text-dark nav-hover">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-dark nav-hover">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <button class="upBtn" id="upBtn" href="#" onclick="topFunction()"><i class="fa fa-arrow-up"
+                    aria-hidden="true"></i></button>
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-sm-12 col-md-5 col-lg-6 animate__animated animate__slideInLeft ">
+                        <div class="info text-dark d-flex flex-column gap-2 ">
+                            <p class="h3 my-2 text-danger ">Hello, my name is</p>
+                            <h1 class="h1 name fw-bold my-2">ELMEHDI GHAZRI</h1>
+                            <p class="h3 mt-2"> I'm a <span class="fs">FullStack Web Developer </span>based in Morocco
+                            </p>
+                            <div class=" justify-content-start d-flex gap-3 anime animate__infinite	 animate__animated">
+                                <a class=" btn btn-danger my-4" href="#portfolio">See my work</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+
+                        <img src="IMG_20221023_155943_754-removebg-preview.png" alt="" width="350px"
+                            class="hero-img mt-4 ml-4">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="d-flex justify-content-center align-items-center">
+                <hr>
+                <h4 class="text-center fw-bold text-danger py-5">About</h4>
+                <hr>
+            </div>
+            <div class="container cards gap-0">
+
+                <div class="card bg-transparent">
+                    <div class="slide slide1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                <p class="h4 text-center text-white">Personal Info</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide2 bg-white">
+                        <div class="content">
+                            <h3>
+                                ELMEHDI GHAZRI
+                            </h3>
+                            <ul>
+                                <li>Age: 27 Years</li>
+                                <li>E-mail: m.ghazri@outlook.fr</li>
+                                <li>Langages: French, English, Arabic</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg bg-transparent">
+                    <div class="slide slide1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                <p class="h4 text-center text-white">Skills</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide2 bg-white">
+                        <div class="content">
+                            <p>- HTML / CSS / JAVASCRIPT / PHP</p>
+                            <p>- BOOTSTRAP / REACT / LARAVEL</p>
+                            <p>- GIT & GITHUB</p>
+                            <p>- WORDPRESS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-transparent">
+                    <div class="slide slide1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                <p class="h4 text-center text-white">Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide2 bg-white">
+                        <div class="content">
+                            <h4>
+                                3W ACADEMY
+                            </h4>
+                            <p>FULLSTACK Web Developer</p>
+                            <h4>
+                                CCINFO
+                            </h4>
+                            <p>Computer management technician</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container pt-0 mt-2">
+                <div class="d-flex justify-content-center align-items-center">
+                    <hr>
+                    <h2 class="text-center fw-bold text-danger py-5">Services</h2>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div
+                        class="card-group d-flex justify-content-center flex-column flex-md-row align-items-center gap-4 ">
+                        <div class="web-dev card text-center border-0 d-flex flex-column justify-content-evenly">
+                            <i class="fas fa-code pt-4" style="color: crimson;"></i>
+                            <h5 class="fw-bolder my-3">Front End Developer</h5>
+                            <p>The user is king. I make sure to design web applications with the user's persepective in mind. Developing UI in web applications with HTML/CSS/ReactJs and other frameworks</p>
+                        </div>
+                        <div class="it card text-center border-0 d-flex flex-column justify-content-evenly">
+                            <i class="fas fa-tools pt-4" style="color: crimson;"></i>
+                            <h5 class="fw-bolder my-3">Back End Developer</h5>
+                            <p>Most problems require the necessary algorithms to solve them. Being profficient in PHP and lower level languages helps achieve these solutions with the lowest computer power needed</p>
+                        </div>
+                        <div class="design card text-center border-0 d-flex flex-column justify-content-evenly ">
+                            <i class="fas fa-paint-brush pt-4" style="color: crimson;"></i>
+                            <h5 class="fw-bolder my-3">Teamwork</h5>
+                            <p>Software Engineering requires great communicational skills. Being able to integrate a team and work coordinately is a must. I will do my best to be apart of and create a network within my team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container containerC">
+                <div class=" cardd">
+                    <img src="assets/images/project1.PNG">
+                    <div class="card__head">Social Network website clone</div>
+                </div>
+                <div class="card cardd">
+                    <img src="assets/images/project2.PNG">
+                    <div class="card__head">Meet Destiny clone -100% responsive-</div>
+                </div>
+                <div class="card cardd">
+                    <img src="assets/images/project6.PNG">
+                    <div class="card__head">WORDPRESS E-commerce Store</div>
+                </div>
+                <div class="card cardd">
+                    <img src="assets/images/project4.PNG">
+                    <div class="card__head">What'sApp Web clone</div>
+                </div>
+                <div class="card cardd">
+                    <img src="assets/images/project5.PNG">
+                    <div class="card__head">WORDPRESS Landing Page</div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container  pt-0 mt-2">
+                <div class="d-flex justify-content-center align-items-center">
+                    <hr>
+                    <h2 class="text-center fw-bold text-danger py-5">Contact me</h2>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p class="fs-3 text-shadow">Feel free to get in touch with me. I am always
+                            open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                        </p>
+                        <div class="buttons d-flex gap-5">
+                            <button class="btn btn-dark fs-5">M.ghazri@outlook.fr</button>
+                            <button class="btn btn-warning fs-5">+212(6) 218 100 47</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 contactl mt-5 pt-5">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-facebook  fa" aria-hidden="true"></i>
+                                    <span class="">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-github fa" aria-hidden="true"></i>
+                                    <span class="">Github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-facebook  fa" aria-hidden="true"></i>
+                                    <span class="">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-instagram fa" aria-hidden="true"></i>
+                                    <span class="">Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+
+</html>
